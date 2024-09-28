@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="utf-8">
+  <meta name="author" content="Ana Carolina Vallarino Martínez">
+  <meta name="description" content="Portafolio de desarrollo web de Ana Carolina">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Titulo -->
+  <title> ‧˚ʚ Ana Carolina ɞ˚‧ </title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./imagenes/favicon0.png">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link href="style.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Berkshire+Swash&family=Cinzel:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Barra de navegacion -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="./imagenes/ositoicon.png" width="70" alt="Logo de la página web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Referencias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seccion Hero -->
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/Foto-Infantil.jpeg"
+        alt="Foto de Ana Carolina" title="Ana Carolina Vallarino :3">
+      <h1>Bienvenidx, soy Ana Carolina Vallarino Martínez</h1>
+      <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+      <!--Animación con JavaScript-->
+      <h2 class="text-primary mb-4" id="typewriter"></h2>
+    </div>
+    <div class="hero-inferior">
+      <img class="hero-inferior-imagen img-fluid" src="./imagenes/macompu.gif"
+        alt="Desarollo">
+      <!-- <img class="hero-inferior-imagen img-fluid" src="./imagenes/michi.jpg"
+        alt="Desarollo"> -->
+    </div>
+  </section>
+
+  <!-- Sobre mi -->
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">Sobre mi</h2>
+      <p class="seccion-texto"> 
+        ¡Hola! soy egresada de la Facultad de Estudios Superiores Aragón, me considero una persona social y positiva, mi objetivo es desarrollarme en la especialización de la programación Front-End. 
+        <br>
+        Formo parte de un Colectivo de Danza llamado CODAORI 
+        <br>
+        Disfruto mucho aprender nuevos conocimientos para poder así desarrollarme y aportar herramientas a las diversas áreas de mi interés, enfocadas en el ámbito tecnológico, deportivo y social 
+      </p>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section class="experiencia seccion-clara">
+    <div class="container text-center">
+      <div class="row">
+        <!-- Desarrollo Web -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Desarrollo Web</p>
+          <p> 
+             Mi pasión de programar se ha dado desde que estudié la carrera, me gusta mucho contribuir al desarrollo de soluciones innovadoras, me encanta el diseño, por lo tanto me interesa bastante continuar formándome en la especialidad de Front-End, así también quisiera aprender sobre los datos e infraestructura de las páginas y aplicaciones de dipositivos.
+          </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-dark">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-dark">JavaScript</span>
+            <span class="badge text-bg-primary">Python</span>
+          </div>
+        </div>
+        <!-- Articulos -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Intereses</p>
+          <p>
+            Me encanta muchísimo bailar, actualmente formo parte de un colectivo de danza llamado "Codaori", en donde realizamos coreografías originales, danza árabe, dance cover (k-pop, j-pop). Nos hemos presentado en varios eventos y concursos. 
+            <br>
+            El año pasado di clases de baile para el proyecto debut de hoy en día una idol mexicana.
+            <br>
+            También estoy apoyando a grupos de baile competitivos como "Renaissance DC" y "Lotus DC".
+          </p>
+          <div class="badges-contenedor">
+            <a href="https://www.instagram.com/codaori/"><span class="badge text-bg-primary">Codaori</span></a>
+            <span class="badge text-bg-dark">Bailar</span>
+            <span class="badge text-bg-primary">Presentaciones</span>
+            <span class="badge text-bg-dark">Apoyo</span>
+          </div>
+        </div>
+        <!-- Estudiante -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Estudios</p>
+          <p>
+            He tenido la oportunidad de formar parte en programas como Tecnolochicas PRO y actualmente Mujer Digital, los cuales me han permitido pulir y adquirir nuevas habilidades. Me gusta mucho aprender idiomas, hoy en día estoy estudiando japonés. 
+          </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-dark">Tecnolochicas PRO</span>
+            <span class="badge text-bg-primary">Mujer Digital</span>
+            <span class="badge text-bg-dark">Inglés B2</span>
+            <span class="badge text-bg-primary">Japonés N2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+    <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente </h3>
+    <!-- Galeria de Proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!-- Proyecto 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto1.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 1 
+                <br>
+                "Stray Kids"
+              </p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Carolainah/Stray-Kids" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://carolainah.github.io/Stray-Kids/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto2.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 2 
+              <br> "Junior Achievement International"
+              </p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Carolainah/JA" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://carolainah.github.io/JA/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto3.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 3 
+              <br> "Clon de Google"</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Carolainah/Clon-Google" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://carolainah.github.io/Clon-Google/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 4 
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto4.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 4</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        Proyecto 5 
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto5.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 5</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+         Proyecto 6
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto6.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 6</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>-->
+      </div>
+    </div>
+    <!--
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        Ver más proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+    -->
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">Referencias</h2>
+    
+    <!-- <h3 class="seccion-descripcion">Estos son algunas referencias de personitas que me quieren mucho </h3> -->
+
+    <!-- Carrusel -->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/Jenny.jpg" alt="Jenny">
+            <p class="testimonio-texto">Ana Carolina Vallarino ha demostrado ser una estudiante excepcional, destacándose por su dedicación, compromiso y actitud positiva hacia el aprendizaje. Su rendimiento académico es consistente y sobresaliente, y su capacidad para trabajar en equipo y apoyar a sus compañeros es admirable. Siempre está dispuesta a enfrentar nuevos desafíos con entusiasmo y perseverancia, lo que la convierte en un ejemplo a seguir para sus compañeros. 
+            <br>
+            Estoy segura de que Ana Carolina continuará alcanzando grandes logros en el futuro</p>
+            <div class="testimonio-info">
+              <p class="cliente">Atenas Franco</p>
+              <p class="cargo">Mentora de Tecnolochicas PRO.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/bety-01.jpeg" alt="Bety">
+            <p class="testimonio-texto">Desde el primer día demostró ser una persona  proactiva y comprometida con cada una de las labores que le eran asignadas. 
+              Destacó por el empeño y los  tiempos óptimos con que realizaba cada uno de los proyectos asignados y su habilidad única para  trabajar en equipo y adaptarse rápidamente a nuevos desafíos.
+              En todo momento mantuvo una actitud positiva y  constructiva, lo que favoreció el ambiente laboral y la cohesión entre sus
+              compañeros.
+              Su ética aplicada al trabajo y enorme responsabilidad en el cumplimiento de sus  funciones son ejemplos claro de su compromiso con la excelencia profesional.  
+              <br>
+              Estoy segura de que Ana Carolina Vallarino Martínez será un gran aporte a su equipo de trabajo, y  no tengo ninguna duda de que continuará mostrando el mismo nivel de dedicación y profesionalismo que nos brindó en la Suprema Corte de Justicia de la Nación. </p>
+            <div class="testimonio-info">
+              <p class="cliente">Beatriz Espinosa Méndez</p>
+              <p class="cargo"> Maestra en Derecho Suprema Corte de Justicia de la Nación </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/sam.jpeg" alt="sam">
+            <p class="testimonio-texto">Por medio de la presente, me permito hacer de su conocimiento que la srta. Carolina
+              Vallarino ha desempeñado satisfactoriamente su cargo como pilar fundador del
+              Colectivo de Danza Oriental Integrativa CODAORI en la UNAM durante un periodo de
+              un año al ejecutar tareas que integran la resolución de conflictos bajo presión, la
+              construcción de relaciones efectivas para aumentar la productividad y eficiencia y la
+              aplicación de estrategias de innovación y construcción de imagen. Así mismo, se
+              destaca por su alta capacidad de adaptación y resiliencia.
+              <br>
+              Creo firmemente que es un elemento competente dada su creatividad, compromiso y
+              liderazgo que ha demostrado.
+              </p>
+            <div class="testimonio-info">
+              <p class="cliente"> Samantha Arzate Castillo </p>
+              <p class="cargo">Docente del Departamento de Actividades Culturales y Deportivas de la Facultad de
+                Química y Psicología UNAM.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            ¡Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:anacarovama@gmail.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de pagina (footer) -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="./imagenes/ositoicon.png " alt="Osito">
+    <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <!--  
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter"></i>
+      </a>
+      -->
+      <a href="https://github.com/Carolainah" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/anavallarino/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/carolaina_bvb/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="mailto:anacarovama@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos-de-autor">Creado por Ana Vallarino (2024) &#169;</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
